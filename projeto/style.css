@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#topo{
+    background-color: #d6ccc2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    background-color: #edf2f4;
+    height: 850px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main2{
+    background-color: #edede9;
+    height: 850px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#foot{
+    background-color: #d6ccc2;
+    height: 53px;
+    width: 100%;
+}
+
+#tabela{
+    background-color: #edede9;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 60px;
+
+}
+
+#tabela2{
+    background-color: #edf2f4;
+    border-radius: 10px;
+}
